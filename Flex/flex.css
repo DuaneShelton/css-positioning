@@ -1,0 +1,52 @@
+h1{
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    bottom: 0;
+}
+
+#bento{
+  border: solid 5px darkgray;
+  width: 50em;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  line-height: 10em;
+}
+
+.box1{
+  background: purple;
+  margin: 0;
+  height: 10em;
+  width: 25em;
+  top: 0em;
+  left: 0em;
+  }
+
+.box2{
+  background: orange;
+  margin: 0;
+  height: 10em;
+  width: 25em;
+  top: 0em;
+  right: 0em;
+  position: absolute;
+}
+
+.box3{
+  background: black;
+  margin: 0;
+  height: 10em;
+  width: 25em;
+  position: static;
+}
+
+.box4{
+  background: gold;
+  margin: 0;
+  height: 10em;
+  width: 25em;
+  bottom: 0em;
+  right: 0em;
+  position: absolute;
+}
