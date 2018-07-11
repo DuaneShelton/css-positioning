@@ -6,47 +6,45 @@ h1{
 }
 
 #bento{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
   border: solid 5px darkgray;
-  width: 50em;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  line-height: 10em;
 }
 
 .box1{
   background: purple;
-  margin: 0;
-  height: 10em;
-  width: 25em;
-  top: 0em;
-  left: 0em;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
   }
 
 .box2{
   background: orange;
-  margin: 0;
-  height: 10em;
-  width: 25em;
-  top: 0em;
-  right: 0em;
-  position: absolute;
-}
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+  }
 
 .box3{
   background: black;
-  margin: 0;
-  height: 10em;
-  width: 25em;
-  position: static;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
 }
 
 .box4{
   background: gold;
-  margin: 0;
-  height: 10em;
-  width: 25em;
-  bottom: 0em;
-  right: 0em;
-  position: absolute;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  border: solid 5px black;
+  justify-content: center;
+  align-items: center;
 }
